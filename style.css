@@ -1,0 +1,267 @@
+body {
+    background-color: transparent;
+}
+
+.header {
+    height: 30px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+
+}
+
+/* Search bar */
+/* .searchArea{
+    width: 15rem;
+    padding-left: 2rem;
+} */
+.search {
+    width: 90%;
+    border: 02px solid rgb(47, 47, 144);
+    padding: 05px;
+    border-radius: 25px;
+    display: flex;
+}
+
+input {
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 100%;
+}
+
+.icon-search {
+    color: rgb(33, 33, 99);
+    font-size: 25px;
+}
+
+/* Website name */
+.name {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.menuAndProfile {
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+}
+
+/* profile  */
+.icon-profile {
+    color: rgb(177, 27, 27);
+    width: 60px;
+    border-radius: 50%;
+
+}
+
+
+
+.icon-menu {
+    color: blue;
+    font-size: 30px;
+    left: 50%;
+    padding: 5px;
+}
+
+/* All anchar tag */
+a {
+    text-decoration: none;
+}
+
+/* 2nd step */
+.box {
+    display: flex;
+    margin-top: 30px;
+    /* justify-content: space-around; */
+}
+
+.box1 {
+    background-color: rgb(148, 130, 150);
+    width: 35%;
+    height: 180px;
+    /* display: flex; */
+}
+
+#see {
+
+    width: 25%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: rgb(128, 204, 235);
+    border-radius: 25%;
+    border: 02px solid rgb(18, 18, 80);
+    display: flex;
+
+}
+
+
+.box2 {
+    background-color: rgb(156, 70, 70);
+    width: 35%;
+    height: 180px;
+
+}
+
+.box3 {
+    background-color: rgb(39, 151, 163);
+    width: 35%;
+    height: 180px;
+
+}
+
+/* content */
+.content {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+/* .content1{
+    margin-left: 10px;
+}
+.content2{
+    margin-left: 20%;
+}
+.content3{
+    margin-left: 10%;
+}
+.content4{
+    margin-left: 10%;
+}
+.content5{
+    margin-left: 10%;
+}
+.content6{
+    margin-left: 10%;
+} */
+
+.main {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.side-bar {
+    width: 20%;
+    min-height: 1000px;
+    background-color: brown;
+    float: left;
+}
+
+.body-area {
+    width: 75%;
+    min-height: 1000px;
+    background-color: aquamarine;
+    float: right;
+}
+
+#clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#iteam {
+    width: 100%;
+    min-height: 200px;
+    margin-top: 30px;
+}
+
+#iteam1 {
+    width: 30%;
+    min-height: 200px;
+    background-color: bisque;
+    float: left;
+}
+
+#iteam1:nth-child(2),
+#iteam1:nth-child(3) {
+    margin-left: 5%;
+}
+
+/* 2nd step image */
+#book {
+    display: block;
+}
+
+.book1 {
+    float: left;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    margin-top: 55px;
+
+}
+
+.main-book {
+    float: left;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 50px;
+
+}
+
+#see2 {
+
+    width: 25%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: rgb(128, 204, 235);
+    border-radius: 25%;
+    border: 02px solid rgb(18, 18, 80);
+    display: flex;
+}
+
+
+.footer {
+    width: 100%;
+    min-height: 40px;
+    background-color: rgb(128, 75, 10);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Element {
+    display: grid;
+    grid-template-areas:
+        "BookImage BookName BookName"
+        "BookImage Auther Auther"
+        "Like Like Like";
+}
+
+.BookImage {
+    grid-area: BookImage;
+}
+
+.BookName {
+    grid-area: BookName;
+    padding-left: 0.5rem;
+}
+
+.Auther {
+    grid-area: Auther;
+    padding-left: 0.5rem;
+}
+
+.Like {
+    grid-area: Like;
+}
+
+.book2 {
+    float: left;
+    width: 120px;
+    height: 120px;
+}
